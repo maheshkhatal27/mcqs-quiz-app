@@ -1,0 +1,39 @@
+.navbar-container{
+    height: 65px;
+    width: 100%;
+    background-color: #0e2c5c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-size{
+    height: 45px;
+    width: 55px;
+}
+.mcqs-heading{
+    font-family: "Bree Serif";
+    font-size: 25px;
+    color:#d3dae6;
+    font-weight: bold;
+}
+.logout-button{
+    background-color:#ebf0f7;
+        color:black;
+        font-family: "Bree Serif";
+        border-radius: 10px;
+        border-width: 0px;
+        font-size: 18px;
+        font-weight: 500;
+        width: 90px;
+        height: 30px;
+        cursor: pointer;
+        outline:none;
+        padding:4px;
+}
+.time{
+    background-color:#ebf0f7;
+        color:black;
+    
+
+}

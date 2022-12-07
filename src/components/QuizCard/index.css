@@ -1,0 +1,106 @@
+.quiz-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom:40px ;
+
+}
+.question-container{
+    width: 70%;
+    background-color:#6da5f2;
+    padding:15px;
+    margin:0 auto;
+    border-radius: 16px;
+    height: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    color: white;
+    background-size: cover;
+}
+
+.options-container{
+    list-style: none;
+  }
+  
+.options{
+    margin-top: 8px;
+    background-color:#4e5157;
+    padding: 16px;
+    border: 3px solid white;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor:pointer;
+    color:black;
+    font-weight: 600;
+    font-family: "Roboto";
+  }
+  
+  .time-heading {
+    color: black;
+    font-size: 26px;
+    background-color: #6da5f2;
+    border-radius: 16px;
+    height: 40px;
+    width: 200px;
+  }
+
+  .question {
+    font-weight: 700;
+    font-family: "Roboto";
+    color: darkblue;
+    font-size: 22px;
+    padding:5px;
+  }
+  .current-score{
+    font-weight: 700;
+    font-family: "Roboto";
+    color:#000000;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 0px;
+  }
+  
+
+  
+  .final-scorecard {
+    margin: 0 auto;
+    width: 50%; 
+    height: auto;
+    margin-top: 64px;
+    background-color:#579bbd;
+    padding: 16px;
+    border-radius: 16px;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  }
+  
+  .button-restart{
+    background-color: #076304;
+    border: none;
+    color: white;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 24px;
+  }
+  
+  .submit-btn{
+    background-color: #6da5f2;
+    border: none;
+    color: #000000;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 16px;
+    margin-top:10px;
+
+  }

@@ -1,0 +1,68 @@
+.login-bg-container{
+    background-image: linear-gradient(to bottom,#99a9f0,#5b6fc7);
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    background-color:#525459;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    box-shadow: 10px 10px 10px 12px lightblue;
+    
+}
+.label{
+    font-family: "Bree Serif";
+    font-size:22px;
+    font-weight: bold;
+    color:black;
+    margin-bottom: 10px;
+}
+.field-name{
+    width:300px;
+    height: 26px;
+    margin-top:10px;
+    margin-bottom:10px;
+    /*border: 2px solid black;*/
+    border:0px;
+    border-radius: 4px;
+    background-color: #9d9db0;
+    outline: none;
+    color:black;
+
+}
+.login-button{
+        background-color: #2d2dd6;
+        color:black;
+        font-family: "Bree Serif";
+        border-radius: 10px;
+        border-width: 0px;
+        font-size: 22px;
+        font-weight: 500;
+        width: 300px;
+        margin-top: 20px;
+        cursor: pointer;
+        outline:none;
+        padding:7px;
+}   
+
+.error-msg{
+    color:red;
+    font-size: 16px;
+}
+
+.instruction{
+    font-family: "Roboto";
+    color:red;
+    font-size:14px;
+    font-weight: 700;
+    margin-top:45px;
+}
