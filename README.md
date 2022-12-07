@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+The details required to login are:
+user/pwd:mahesh/mahesh123
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
